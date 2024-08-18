@@ -1,0 +1,16 @@
+//Diseñar un algoritmo que pida por teclado tres números; si el primero es negativo, debe imprimir la multiplicación de los tres y si no lo es, imprimirá la suma.
+
+Algoritmo tresnumeros
+	Escribir "Ingrese numero 1"
+	Leer Num1
+	Escribir "Ingrese numero 2"
+	Leer Num2
+	Escribir "Ingrese numero 3"
+	Leer Num3
+	Si Num1<0 Entonces
+		Resultado<-Num1 * Num2 * Num3
+	Sino
+		Resultado<-Num1+Num2+Num3
+	Fin Si
+	Escribir Resultado
+FinAlgoritmo

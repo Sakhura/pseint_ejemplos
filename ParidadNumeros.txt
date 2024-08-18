@@ -1,0 +1,8 @@
+Algoritmo ParidadNumeros
+	Leer nro
+	Si (nro mod 2) = 0 entonces
+		Escribir "es par"
+	Sino
+		Escribir "es impar"
+	Fin Si
+FinAlgoritmo

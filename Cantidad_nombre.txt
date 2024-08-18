@@ -1,0 +1,13 @@
+
+//Crear un programa que permita ingresar un nombre y una cantidad numérica para que así después el programa escriba este nombre 
+//tantas veces como su cantidad ingresada. Utilizar la función MIENTRAS
+Algoritmo Cantidad_nombre
+	Escribir "Ingresar Nombre"
+	Leer nombre
+	Escribir "Ingresar Cantidad"
+	Leer num
+	Mientras Num>0 Hacer
+		Escribir nombre
+		Num<-Num - 1
+	Fin Mientras
+FinAlgoritmo

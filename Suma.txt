@@ -1,0 +1,26 @@
+Algoritmo Suma
+	// asi se dejan comentarios  
+	//este es un ejemplo sencillo
+
+	// para cargar un dato, se le muestra un mensaje al usuario
+    // con la instrucción Escribir, y luego se lee el dato en 
+    // una variable (A para el primero, B para el segundo) con 
+    // la instrucción Leer
+	
+	Escribir "Ingrese el primer número: "
+	Leer nro1
+	
+	Escribir "Ingrese el segundo número: "
+	Leer nro2
+	
+	// Forma 1 de mostrar resultados
+	// ahora se calcula la suma y se guarda el resultado en la
+    // variable C mediante la asignación (<-)
+    
+    resultado<- nro1 + nro2
+	//Mostrar Resultado
+	
+	Escribir "El resultado es: ", resultado
+	
+	
+FinAlgoritmo
